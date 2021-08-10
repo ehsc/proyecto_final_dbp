@@ -1,6 +1,12 @@
 # Proyecto_final_dbp
 ## wefoundit
- wefoundit es un sitio web que permite a las personas publicar sobre objetos perdidos, este medio permite que otros usuarios puedan ayudar a encontrar dichos objetos
+ wefoundit es un sitio web que permite a las personas publicar sobre objetos perdidos, este medio permite que otros usuarios puedan ayudar a encontrar dichos objetos.
+ 
+ 
+ En esta web se puede:
+ - Crear usuarios.
+ - Logearse con una cuenta ya creada.
+ - Publicar texto.
  
 ### Configuración e instalación
 
