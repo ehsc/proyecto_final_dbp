@@ -1,0 +1,57 @@
+{% extends "base.html" %}Sign Up{% block title %}sign_up{% endblock %}
+
+{% block content %}
+
+<h1 class="text-center " > <b>wefoundit</b></h1>
+
+<br>
+<h4 class="text-center">Regístrate para acceder a wefoundit</h4>
+
+<form method="POST" class="forms">
+
+    
+    <div class="form-group">
+        <label for="email">¿Cuál es tu correo electrónico?</label>
+        <input 
+            type="email" 
+            class="form-control" 
+            id="email" 
+            name="email"
+            placeholder="Introduce tu correo electrónico">
+    </div>
+    <div class="form-group">
+        <label for="firstName">¿Cómo quieres que te llamemos?</label>
+        <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            name="firstName"
+            placeholder="Introduce un nombre de perfil"
+        >
+    </div>
+    <div class="form-group">
+        <label for="password1">Crea una contraseña</label>
+        <input
+            type="password"
+            class="form-control"
+            id="password1"
+            name="password1"
+            placeholder="Crea una contraseña"
+        >
+      </div>
+    <div class="form-group">
+        <label for="password2">Confirma tu contraseña</label>
+        <input
+            type="password"
+            class="form-control"
+            id="password2"
+            name="password2"
+            placeholder="Vuelve a escribir tu contraseña"
+        >
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary" >Registrarte</button>
+
+    
+</form>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %} {% block title %}login{% endblock %}
+
+{% block content %}
+
+<h1 class="text-center " > <b>wefoundit</b></h1>
+
+<br>
+<h4 class="text-center">Para continuar, inicia sesión en wefoundit</h4>
+
+
+
+<form method="POST" class="forms">
+
+    <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Correo electrónico"
+        >
+    </div>
+    <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input
+            type="password"
+            class="form-control"
+            id="password"
+            name="password"
+            placeholder="Contraseña"
+        >
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">INICIAR SESIÓN</button>
+</form>
+
+
+{% endblock %}
