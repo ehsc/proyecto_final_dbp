@@ -14,7 +14,7 @@
 Asegúrese de tener instalado Python.
 
 ``` 
-git clone <repo-url>
+git clone https://github.com/ehsc/proyecto_final_dbp
 ```
 
 
