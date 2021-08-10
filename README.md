@@ -7,6 +7,7 @@
  - Crear usuarios.
  - Logearse con una cuenta ya creada.
  - Publicar texto.
+ - Eliminar publicaciones.
  
 ### Configuración e instalación
 
